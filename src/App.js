@@ -12,6 +12,14 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import maxence from './assets/images/maxence.png';
 import glasses from './assets/images/maxence-glasses.png';
+import Dice from './components/Dice';
+import Carousel from './components/Carousel';
+import woman1 from './assets/images/woman1.jpg';
+import woman2 from './assets/images/woman2.jpg';
+import man1 from './assets/images/man1.jpg';
+import man2 from './assets/images/men2.jpg';
+import NumbersTable from './components/NumbersTable';
+import Facebook from './components/Facebook';
 
 function App() {
   return (
@@ -118,6 +126,17 @@ function App() {
             img={maxence}
             imgClicked={glasses}
         />
+        <Dice />
+        <Carousel
+            imgs={[
+              'https://randomuser.me/api/portraits/women/1.jpg',
+              'https://randomuser.me/api/portraits/men/1.jpg',
+              'https://randomuser.me/api/portraits/women/2.jpg',
+              'https://randomuser.me/api/portraits/men/2.jpg'
+            ]}
+        />
+        <NumbersTable />
+        <Facebook />
     </div>
   );
 }

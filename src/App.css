@@ -131,4 +131,6 @@ img {
   display: inline-block;
   margin-right: 2rem;
 }
-
+.dice {
+  width: 150px;
+}
